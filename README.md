@@ -16,3 +16,15 @@ This repository walks through the complete fine-tuning pipeline from data prepro
 - Key parameters in **LoRA (Low-Rank Adaptation)** and how to configure them for **knowledge injection** vs **task adaptation**.
 - How to manage model saving and inference to avoid common deployment pitfalls.
 - Tips for saving compute and optimizing fine-tuning runs with limited resources.
+
+
+## Datasets Used
+
+This model was fine-tuned on a diverse and instructional dataset mix:
+
+-  **GPT-4 Alpaca** (instruction-tuned data)
+-  **Wikipedia Hindi corpus**
+-  **Cognitive Lab’s Hindi Instruct**
+-  **Databricks Dolly**
+-  **Hindi Maths Quest**
+-  **Alpaca-Inspired Hindi Data for Gemma**
