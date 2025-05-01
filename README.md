@@ -28,3 +28,9 @@ This model was fine-tuned on a diverse and instructional dataset mix:
 -  **Databricks Dolly**
 -  **Hindi Maths Quest**
 -  **Alpaca-Inspired Hindi Data for Gemma**
+
+## Experimentation Overview
+
+- Multiple LoRA configurations were tested, yielding varied outcomes depending on rank, alpha, and dropout.
+- Training took place on mostly **L4 and occasionaly on A100 GPUs**, spread over ~40 hours.
+- A total of 30,000+ steps were trained across the dataset variations, with checkpoints and adapters saved at different milestones.
