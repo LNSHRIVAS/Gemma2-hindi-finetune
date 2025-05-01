@@ -36,7 +36,21 @@ This model was fine-tuned on a diverse and instructional dataset mix:
 - Training took place on mostly **L4 and occasionaly on A100 GPUs**, spread over ~40 hours.
 - A total of 30,000+ steps were trained across the dataset variations, with checkpoints and adapters saved at different milestones.
 
-Some result from Inference:
+## Model Checkpoints
+
+## 🔗 Model Checkpoints
+- All fine-tuned LoRA adapters and model checkpoints are hosted on [Kaggle](https://www.kaggle.com/models/lnshrivas/gemma-2).
+
+- To download via code:
+
+  ```python
+  import kagglehub
+
+  # Downloads the latest checkpoint version of the Hindi fine-tuned Gemma2 model
+  path = kagglehub.model_download("lnshrivas/gemma-2/transformers/gemma-2-2b-hindi")
+
+
+## Some result from Inference:
 
 ![image](https://github.com/user-attachments/assets/88ee9b74-7bac-4a7d-83f9-2ba55d455527)
 ![image](https://github.com/user-attachments/assets/46d3ccbe-d81d-45bb-814a-e882367ed41b)
