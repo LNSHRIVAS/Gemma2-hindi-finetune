@@ -29,8 +29,14 @@ This model was fine-tuned on a diverse and instructional dataset mix:
 -  **Hindi Maths Quest**
 -  **Alpaca-Inspired Hindi Data for Gemma**
 
+
 ## Experimentation Overview
 
 - Multiple LoRA configurations were tested, yielding varied outcomes depending on rank, alpha, and dropout.
 - Training took place on mostly **L4 and occasionaly on A100 GPUs**, spread over ~40 hours.
 - A total of 30,000+ steps were trained across the dataset variations, with checkpoints and adapters saved at different milestones.
+
+Some result from Inference:
+
+![image](https://github.com/user-attachments/assets/88ee9b74-7bac-4a7d-83f9-2ba55d455527)
+![image](https://github.com/user-attachments/assets/46d3ccbe-d81d-45bb-814a-e882367ed41b)
