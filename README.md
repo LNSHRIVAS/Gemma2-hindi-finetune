@@ -10,3 +10,9 @@ This repository walks through the complete fine-tuning pipeline from data prepro
 
 > 📌 If you're interested in multilingual GenAI or fine-tuning LLMs on resource-constrained systems, this guide is for you.
 
+## What You'll Learn from This Project
+
+- How to fine-tune a large-scale open-source LLM (Gemma2-2B) on a multilingual instruction-following dataset.
+- Key parameters in **LoRA (Low-Rank Adaptation)** and how to configure them for **knowledge injection** vs **task adaptation**.
+- How to manage model saving and inference to avoid common deployment pitfalls.
+- Tips for saving compute and optimizing fine-tuning runs with limited resources.
