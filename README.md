@@ -1,4 +1,10 @@
-# Gemma2-hindi-finetune
-I worked on this project as a part of the kaggle competition hosted by google. 
-I fine tuned Google's gemma2 modle which is 2b parameters on hindi language dataset.
-We will walk throught it breafly how it was done and also you can apply this practices to fine tune any other model aslo.
+# Gemma2-Hindi-Finetune
+
+This project was developed as part of a Kaggle competition hosted by Google.
+
+I fine-tuned Google’s **Gemma 2B** language model on a custom Hindi and Hinglish dataset using **LoRA (Low-Rank Adaptation)** and **4-bit quantization** to enable efficient training on limited hardware.
+
+This repository walks through the complete fine-tuning pipeline — from data preprocessing to model training — and outlines best practices that you can apply to fine-tune any other large language model (LLM) using the PEFT framework.
+
+> 📌 If you're interested in multilingual GenAI or fine-tuning LLMs on resource-constrained systems, this guide is for you.
+
